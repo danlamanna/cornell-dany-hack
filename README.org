@@ -1,0 +1,15 @@
+* ImageSpace
+**** ImageSpace is an application for browsing through images and their metadata
+**** ImageSpace can use SMQTK to perform nearest neighbors on images
+**** More: https://github.com/memex-explorer/image_space
+* SMQTK
+**** SMQTK is a toolkit for multimedia-based machine learning
+**** More: https://github.com/Kitware/SMQTK
+* Up and running
+**** ImageSpace and SMQTK can be setup locally via Docker containers
+**** See: https://github.com/memex-explorer/image_space#quickstart
+     Note: This method uses the CPU to compute image descriptors, meaning that this is not a scalable approach    
+* Hackathon API
+**** There is an API available to query for similar images to the ones you upload
+**** Sample data from the Cornell/DANY Hackathon is loaded for testing
+**** API information and credentials available from @danlamanna
